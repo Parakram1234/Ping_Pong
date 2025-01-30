@@ -1,0 +1,95 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.parent
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: chartreuse;
+}
+.lisa
+{
+    height: 350px;
+    width: 450px;
+    background-color: darkmagenta;
+    position: relative;
+}
+.ball {
+    background-color: white;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    position: absolute;
+    top: 138px;
+    left: 190px;
+    animation: daksh 1.5s linear infinite;
+}
+ .stand {
+    background-color: white;
+    width: 50px;
+    height: 170px;
+    position: absolute;
+    animation: rishi 1.5s linear infinite;
+    /* top: 0px;  */
+}
+.lean
+{
+    background-color: white;
+    width: 50px;
+    height: 170px;
+    position: absolute;
+    right: 0;
+    /* top: 0; */
+    animation: yash 1.5s linear infinite;
+}
+@keyframes rishi
+{
+    0%
+    {
+        top: 0;
+    }
+    50%
+    {
+        top: 180px;
+    }
+    100%
+    {
+        top: 0;
+    }
+}
+@keyframes yash
+{
+    0%
+    {
+        top: 180px;
+    }
+    50%
+    {
+        top: 0;
+    }
+    100%
+    {
+        top: 180px;
+    }
+}
+@keyframes daksh
+{
+    0%
+    {
+        left: 50px;
+    }
+    50%
+    {
+        left: 340px;
+    }
+    100%
+    {
+        left: 50px;
+    }
+} 
+
