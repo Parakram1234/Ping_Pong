@@ -47,7 +47,7 @@
     /* top: 0; */
     animation: yash 1.5s linear infinite;
 }
-@keyframes rishi
+ @keyframes rishi
 {
     0%
     {
@@ -90,6 +90,130 @@
     100%
     {
         left: 50px;
-    }
-} 
+    } 
+}
 
+/* Media Queries Start */
+@media screen and (min-width:320px) and (max-width:570px)
+{
+    .lisa 
+    {
+        height: 200px;
+        width: 200px;
+    }
+    .stand 
+    {
+        width: 38px;
+        height: 100px;
+    }
+    .lean
+    {
+        width: 38px;
+        height: 100px;
+    }
+    .ball
+    {
+        width: 45px;
+        height: 45px;
+        top: 88px;
+        left: 80px;
+    }
+    @keyframes daksh
+    {
+            0%
+            {
+                left: 35px;
+            }
+            50%
+            {
+                left: 120px;
+            }
+            100%
+            {
+                left: 35px;
+            }  
+    }
+     @keyframes rishi
+{
+    0%
+    {
+        top: 0;
+    }
+    50%
+    {
+        top: 100px;
+    }
+    100%
+    {
+        top: 0;
+    }
+}
+@keyframes yash
+{
+    0%
+    {
+        top: 100px;
+    }
+    50%
+    {
+        top: 0;
+    }
+    100%
+    {
+        top: 100px;
+    }
+}
+}
+@media screen and (min-width:570px) and (max-width:1024px)
+{
+     .lisa 
+    {
+        height: 320px;
+    }
+    @keyframes daksh
+{
+    0%
+    {
+        left: 50px;
+    }
+    50%
+    {
+        left: 340px;
+    }
+    100%
+    {
+        left: 50px;
+    } 
+} 
+  @keyframes rishi
+{
+    0%
+    {
+        top: 0;
+    }
+    50%
+    {
+        top: 151px;
+    }
+    100%
+    {
+        top: 0;
+    }
+}
+@keyframes yash
+{
+    0%
+    {
+        top: 151px;
+    }
+    50%
+    {
+        top: 0;
+    }
+    100%
+    {
+        top: 151px;
+    }
+}
+ 
+}
